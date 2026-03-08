@@ -1,55 +1,586 @@
-<!doctype html> <!-- Declara el documento como HTML5 -->
-<html> <!-- Elemento raíz del documento -->
-  <head> <!--Cabecera del documento: metadatos y enlaces a recursos -->
-    <meta charset="utf-8"> <!--Establece la codificación de caracteres a UTF-8-->
-    <title>Door-01</title> <!-- Título mostrado en la pestaña del navegador-->
-    <style> /* Inicio de estilos CSS embebidos */
-      html,body { /* Selecciona html y body para aplicar estilos comunes */
-        height: 100%; /* Define la altura al 100% del viewport */
-        margin: 0; /* Elimina el margen por defecto del navegador */
-      } /* Fin de la regla para html y body */
-body{ /* Inicio de la regla CSS para body */
-<script type="text/javascript" src="https://contador.websiteout.com/js/2/5/0/0"></script>/*inserta un contador de visitas*/
-background-image: url("signal-fondo4.jfif"); /* Establece la imagen de fondo (usa %20 para espacios) */
-background-size: center; /* Escala la imagen para cubrir todo el fondo */
-background-position: center; /* Centra la imagen de fondo */
-background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
-} /* Fin de la regla body */
-      .overlay { /* Inicio de regla para .overlay (posible capa oscura sobre fondo) */
-        background: rgba(0,0,0,0.4); /* Color de fondo semitransparente para la superposición */
-        min-height: 100vh; /* Altura mínima de la superposición igual a la altura de la ventana */
-        display: flex; /* Usa Flexbox para alinear contenido */
-        align-items: center; /* Centra verticalmente el contenido dentro de la caja flex */
-        color: #fff; /* Define el color del texto como blanco */
-      } /* Fin de la regla .overlay */
-      </style> <!--Fin de estilos CSS-->
-    </head> <!--Fin del head-->
-<body> <!--Inicio del cuerpo visible de la página-->
-<h1>Las Playlist más tocadas en MX:</h1><!--Encabezado principal de la página-->
-<li><a href="https://open.spotify.com/playlist/37i9dQZEVXbO3qyFxbkOE1?si=wIVFtcz8SgGbBb6hjx1THQ">1.TOP 50:MEXICO</a></li> <!--Elemento de lista con enlace a la playlist 'Exitos Mexico'-->
-</li> <!--Cierre del segundo elemento de lista-->
-<li><a href="https://open.spotify.com/playlist/37i9dQZEVXbLuUZrygauiA?si=njyQxmBESZyrGAHogoaIug">2.VIRAL 50: MEXICO</a> <!--Elemento de lista con enlace a 'metal Essentials' (cierra en la siguiente línea) -->
-</li> <!--Cierre del segundo elemento de lista-->
-<li><a href="https://open.spotify.com/playlist/37i9dQZF1DX5BAPG29mHS8?si=69rtevaFTw-aYvAVSMCTmQ">3.EXITOS MEXICO</a></li> <!--Elemento de lista con enlace a la playlist 'Exitos Mexico'-->
-</li> <!--Cierre del segundo elemento de lista-->
-<li><a href="https://open.spotify.com/playlist/37i9dQZF1DWWhMyyrqZlaY?si=OMDlxjXnSzm_DfU3I2gdwQ">4.CORRIDOS TUMBADOS</a> <!--Elemento de lista con enlace a 'metal Essentials' (cierra en la siguiente línea) -->
-</li> <!--Cierre del segundo elemento de lista-->
-<li><a href="https://open.spotify.com/playlist/37i9dQZF1DX5hrSNdL1ktS?si=dJJFlH5hTCC5WUOIqrP1Sw">5.REGGAETON MX</a></li> <!--Elemento de lista con enlace a la playlist 'Exitos Mexico'-->
-</li> <!--Cierre del segundo elemento de lista-->
-<li><a href="https://open.spotify.com/playlist/37i9dQZF1DWTmGGCbcoQhY?si=9htAtALLTWqE3o3LG9TqNg">6.CUMBIA SONIDERA</a> <!--Elemento de lista con enlace a 'metal Essentials' (cierra en la siguiente línea) -->
-</li> <!--Cierre del segundo elemento de lista-->
-<li><a href="https://open.spotify.com/playlist/1z9BMuPLZE7bVemN5E85rV?si=vs4BVFxjTgyUycoBLQpARQ">7.HITS TIKTOK MEXICO</a> <!--Elemento de lista con enlace a 'metal Essentials' (cierra en la siguiente línea) -->
-</li> <!--Cierre del segundo elemento de lista-->
-<h2>Musica para locos Marihuanos:</h2><!--Encabezado secundario de la página-->
-<li><a href="https://open.spotify.com/playlist/37i9dQZF1EIea0ChiRU7ji?si=l1tpgnOTSceRtCiN5SMSWQ">8.METAL DENSO</a></li> <!--Elemento de lista con enlace a la playlist 'Exitos Mexico'-->
-</li> <!--Cierre del segundo elemento de lista-->
-<li><a href="https://open.spotify.com/playlist/37i9dQZF1DWYMHB55fgZrY?si=C0gKOkwdS_OKb2gXXrERkQ">9.ROCK MEXICANO</a> <!--Elemento de lista con enlace a 'metal Essentials' (cierra en la siguiente línea) -->
-</li> <!--Cierre del segundo elemento de lista-->
-<li><a href="https://open.spotify.com/playlist/37i9dQZF1EIcM7vKLqtJgT?si=MU8P6kObS_efOEAuU7b73A">10.TECHNO OSCURO</a> <!--Elemento de lista con enlace a 'metal Essentials' (cierra en la siguiente línea) -->
-</li> <!--Cierre del segundo elemento de lista-->
-<li><a href="https://open.spotify.com/playlist/37i9dQZF1DWTe5ECpTKzMo?si=8IR6Y2vHRByTr_w5FnmT_w">11.HIP-HOP MX 24K</a> <!--Elemento de lista con enlace a 'metal Essentials' (cierra en la siguiente línea) -->
-</li> <!--Cierre del segundo elemento de lista-->
-<iframe src='https://widget.spreaker.com/player?show_id=6247023&theme=dark&playlist=show&playlist-continuous=true&chapters-image=true' width='100%' height='400px' title='el panda show' frameborder='0'></iframe>
-</body> <!--Fin del cuerpo -->
-  </html> <!--Fin del documento HTML-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Error Más Hermoso</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
 
+  :root {
+    --bg: #0a0a0f;
+    --green: #00ff88;
+    --amber: #ffb300;
+    --red: #ff3366;
+    --white: #f0f0f0;
+    --grid: #1a1a2e;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--white);
+    font-family: 'Space Mono', monospace;
+    min-height: 100vh;
+    overflow-x: hidden;
+    cursor: crosshair;
+  }
+
+  /* scanline overlay */
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,255,136,0.015) 2px,
+      rgba(0,255,136,0.015) 4px
+    );
+    pointer-events: none;
+    z-index: 100;
+  }
+
+  canvas {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+  }
+
+  .stage {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+
+  /* HEADER */
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .glitch-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.5rem, 8vw, 5.5rem);
+    font-style: italic;
+    font-weight: 700;
+    color: var(--white);
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+  }
+
+  .glitch-title::before,
+  .glitch-title::after {
+    content: attr(data-text);
+    position: absolute;
+    inset: 0;
+  }
+
+  .glitch-title::before {
+    color: var(--red);
+    animation: glitch1 3.5s infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+  }
+
+  .glitch-title::after {
+    color: var(--green);
+    animation: glitch2 3.5s infinite;
+    clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+  }
+
+  @keyframes glitch1 {
+    0%,90%,100% { transform: translate(0); opacity: 0; }
+    92% { transform: translate(-4px, 2px); opacity: 1; }
+    94% { transform: translate(4px,-2px); opacity: 1; }
+    96% { transform: translate(-2px,0); opacity: 1; }
+    98% { transform: translate(0); opacity: 0; }
+  }
+
+  @keyframes glitch2 {
+    0%,90%,100% { transform: translate(0); opacity: 0; }
+    93% { transform: translate(4px,-1px); opacity: 1; }
+    95% { transform: translate(-3px,2px); opacity: 1; }
+    97% { transform: translate(1px,0); opacity: 1; }
+    99% { transform: translate(0); opacity: 0; }
+  }
+
+  .subtitle {
+    font-size: 0.75rem;
+    color: var(--green);
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+    opacity: 0.7;
+  }
+
+  /* BUGS GRID */
+  .bugs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    max-width: 900px;
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+
+  .bug-card {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 4px;
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s, border-color 0.3s;
+    cursor: pointer;
+  }
+
+  .bug-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--card-color, var(--green)) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .bug-card:hover::before { opacity: 0.06; }
+  .bug-card:hover { border-color: var(--card-color, var(--green)); transform: translateY(-3px); }
+
+  .bug-card.revealed {
+    border-color: var(--card-color, var(--green));
+    background: rgba(0,255,136,0.04);
+  }
+
+  .bug-card.revealed::before { opacity: 0.08; }
+
+  .card-status {
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .status-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--card-color, var(--red));
+    animation: blink 1.5s infinite;
+  }
+
+  .bug-card.revealed .status-dot {
+    animation: none;
+    background: var(--green);
+  }
+
+  @keyframes blink {
+    0%,100% { opacity: 1; }
+    50% { opacity: 0.2; }
+  }
+
+  .bug-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+  }
+
+  .bug-code {
+    font-size: 0.65rem;
+    color: var(--amber);
+    opacity: 0.6;
+    margin-bottom: 1rem;
+    font-family: 'Space Mono', monospace;
+  }
+
+  .bug-desc {
+    font-size: 0.75rem;
+    line-height: 1.7;
+    opacity: 0.5;
+    display: none;
+  }
+
+  .bug-card.revealed .bug-desc { display: block; opacity: 0.7; }
+
+  .feature-label {
+    display: none;
+    margin-top: 1rem;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--green);
+    padding: 0.3rem 0.6rem;
+    border: 1px solid var(--green);
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.5s 0.2s;
+  }
+
+  .bug-card.revealed .feature-label { display: inline-block; opacity: 1; }
+
+  .hint {
+    font-size: 0.65rem;
+    color: var(--white);
+    opacity: 0.25;
+    letter-spacing: 0.15em;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+
+  /* CHAOS BUTTON */
+  .chaos-zone {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .chaos-btn {
+    background: transparent;
+    border: 1px solid var(--red);
+    color: var(--red);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    padding: 0.75rem 2rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s;
+  }
+
+  .chaos-btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--red);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+    z-index: -1;
+  }
+
+  .chaos-btn:hover { color: var(--bg); }
+  .chaos-btn:hover::before { transform: scaleX(1); }
+
+  /* COUNTER */
+  .counter {
+    font-size: 0.65rem;
+    color: var(--green);
+    letter-spacing: 0.2em;
+    opacity: 0.5;
+    margin-top: 0.5rem;
+  }
+
+  /* PARTICLES from canvas */
+  .footer-quote {
+    margin-top: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: var(--white);
+    opacity: 0.25;
+    text-align: center;
+    max-width: 480px;
+  }
+
+  /* chaos mode */
+  body.chaos .glitch-title {
+    animation: shake 0.1s infinite;
+  }
+
+  @keyframes shake {
+    0% { transform: translate(0,0) rotate(0deg); }
+    25% { transform: translate(-2px,1px) rotate(-0.5deg); }
+    50% { transform: translate(2px,-1px) rotate(0.5deg); }
+    75% { transform: translate(-1px,2px) rotate(-0.3deg); }
+  }
+
+  body.chaos .bug-card {
+    animation: cardShake 0.15s infinite;
+  }
+
+  @keyframes cardShake {
+    0%,100% { transform: translate(0,0); }
+    33% { transform: translate(1px,-1px); }
+    66% { transform: translate(-1px,1px); }
+  }
+
+  .chaos-message {
+    font-size: 0.7rem;
+    color: var(--amber);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 0.3s;
+    margin-top: 0.5rem;
+  }
+  .chaos-message.visible { opacity: 1; }
+
+</style>
+</head>
+<body>
+
+<canvas id="c"></canvas>
+
+<div class="stage">
+
+  <div class="header">
+    <div class="glitch-title" data-text="El Error Más Hermoso">El Error Más Hermoso</div>
+    <div class="subtitle">bugs que se convirtieron en features legendarias</div>
+  </div>
+
+  <div class="bugs-grid" id="grid"></div>
+
+  <div class="chaos-zone">
+    <button class="chaos-btn" id="chaosBtn">⚡ INTRODUCE UN BUG</button>
+    <div class="chaos-message" id="chaosMsg">// error inesperado... o ¿feature?</div>
+    <div class="counter" id="counter">0 / 6 bugs revelados</div>
+  </div>
+
+  <div class="footer-quote">
+    "It's not a bug, it's an undocumented feature."
+  </div>
+
+</div>
+
+<script>
+// ── CANVAS BACKGROUND ──────────────────────────────────────────────
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+let W, H, particles = [];
+
+function resize() {
+  W = canvas.width = window.innerWidth;
+  H = canvas.height = window.innerHeight;
+}
+
+resize();
+window.addEventListener('resize', resize);
+
+class Particle {
+  constructor() { this.reset(); }
+  reset() {
+    this.x = Math.random() * W;
+    this.y = Math.random() * H;
+    this.size = Math.random() * 1.5 + 0.3;
+    this.speedY = -(Math.random() * 0.4 + 0.1);
+    this.speedX = (Math.random() - 0.5) * 0.2;
+    this.opacity = Math.random() * 0.4 + 0.1;
+    this.color = Math.random() > 0.7 ? '#ffb300' : '#00ff88';
+  }
+  update() {
+    this.y += this.speedY;
+    this.x += this.speedX;
+    this.opacity -= 0.001;
+    if (this.y < 0 || this.opacity <= 0) this.reset();
+  }
+  draw() {
+    ctx.globalAlpha = this.opacity;
+    ctx.fillStyle = this.color;
+    ctx.fillRect(this.x, this.y, this.size, this.size);
+  }
+}
+
+for (let i = 0; i < 120; i++) particles.push(new Particle());
+
+// flowing "code" lines
+let codeLines = [];
+const chars = '01アイウエオ{};()=>!null';
+class CodeLine {
+  constructor() { this.reset(); }
+  reset() {
+    this.x = Math.random() * W;
+    this.y = -20;
+    this.speed = Math.random() * 1.5 + 0.5;
+    this.chars = Array.from({length: Math.floor(Math.random()*6+3)},
+      () => chars[Math.floor(Math.random()*chars.length)]).join('');
+    this.opacity = Math.random() * 0.08 + 0.02;
+    this.size = Math.random() * 8 + 7;
+  }
+  update() {
+    this.y += this.speed;
+    if (this.y > H + 50) this.reset();
+  }
+  draw() {
+    ctx.globalAlpha = this.opacity;
+    ctx.fillStyle = '#00ff88';
+    ctx.font = `${this.size}px "Space Mono", monospace`;
+    ctx.fillText(this.chars, this.x, this.y);
+  }
+}
+
+for (let i = 0; i < 30; i++) {
+  const cl = new CodeLine();
+  cl.y = Math.random() * H;
+  codeLines.push(cl);
+}
+
+function animate() {
+  ctx.clearRect(0, 0, W, H);
+  ctx.globalAlpha = 1;
+
+  // dark grid
+  ctx.strokeStyle = 'rgba(0,255,136,0.03)';
+  ctx.lineWidth = 1;
+  for (let x = 0; x < W; x += 60) {
+    ctx.beginPath(); ctx.moveTo(x,0); ctx.lineTo(x,H); ctx.stroke();
+  }
+  for (let y = 0; y < H; y += 60) {
+    ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(W,y); ctx.stroke();
+  }
+
+  particles.forEach(p => { p.update(); p.draw(); });
+  codeLines.forEach(cl => { cl.update(); cl.draw(); });
+  ctx.globalAlpha = 1;
+  requestAnimationFrame(animate);
+}
+animate();
+
+// ── BUG DATA ──────────────────────────────────────────────────────
+const bugs = [
+  {
+    code: 'ERR_0001 :: Xerox PARC, 1973',
+    name: 'El cursor que no debería existir',
+    color: '#00ff88',
+    feature: '→ Ahora es el ratón',
+    desc: 'El primer cursor de pantalla era un artefacto visual no planeado del sistema Alto. Nadie lo programó intencionalmente — apareció al mover un dispositivo de punteo experimental. Hoy mueves el tuyo 10,000 veces al día.'
+  },
+  {
+    code: 'ERR_0002 :: id Software, 1993',
+    name: 'El monstruo que traspasaba paredes',
+    color: '#ff3366',
+    feature: '→ Ahora es el noclip mode',
+    desc: 'En DOOM, un bug de colisión dejaba al jugador atravesar geometría. Los devs lo mantuvieron como comando de debug. La comunidad lo convirtió en el speedrun que definió el esport moderno.'
+  },
+  {
+    code: 'ERR_0003 :: Nintendo, 1986',
+    name: 'El personaje que saltaba infinito',
+    color: '#ffb300',
+    feature: '→ Ahora es el combo system',
+    desc: 'En Super Mario Bros., un glitch de física permitía encadenar saltos imposibles. El equipo de Miyamoto no lo arregló; lo estudió. Ese "error" se convirtió en el diseño del sistema de plataformas más imitado de la historia.'
+  },
+  {
+    code: 'ERR_0004 :: Twitter, 2006',
+    name: 'El límite que nadie pidió',
+    color: '#00ff88',
+    feature: '→ Ahora es el formato cultural',
+    desc: 'El límite de 140 caracteres era técnico: el máximo de un SMS de la época. Los ingenieros lo consideraban una restricción temporal. La restricción se volvió un arte nuevo y un idioma visual propio.'
+  },
+  {
+    code: 'ERR_0005 :: Valve, 2000',
+    name: 'Los jugadores que se mataban entre sí',
+    color: '#ff3366',
+    feature: '→ Ahora es el multiplayer PvP',
+    desc: 'En Half-Life, un mod de fanáticos convirtió un bug de equipo amigo en combate jugador contra jugador. Valve lo vio, compró el equipo y lanzó Counter-Strike. El "bug" generó una industria de miles de millones.'
+  },
+  {
+    code: 'ERR_0006 :: Mojang, 2009',
+    name: 'El cerdo que salió mal',
+    color: '#ffb300',
+    feature: '→ Ahora es el Creeper',
+    desc: 'Notch intentaba crear un cerdo en Minecraft pero leyó mal el código de dimensiones: ancho y alto se invirtieron. El resultado fue una criatura vertical, pálida y amenazante. No lo borró. Le dio nombre: Creeper. Es el ícono del juego.'
+  }
+];
+
+// ── RENDER CARDS ──────────────────────────────────────────────────
+const grid = document.getElementById('grid');
+let revealed = 0;
+
+bugs.forEach((bug, i) => {
+  const card = document.createElement('div');
+  card.className = 'bug-card';
+  card.style.setProperty('--card-color', bug.color);
+  card.innerHTML = `
+    <div class="card-status">
+      <span class="status-dot"></span>
+      <span style="opacity:0.4; color:${bug.color}">${card.className.includes('revealed') ? 'FEATURE' : 'BUG'}</span>
+    </div>
+    <div class="bug-code">${bug.code}</div>
+    <div class="bug-name">${bug.name}</div>
+    <div class="bug-desc">${bug.desc}</div>
+    <div class="feature-label">${bug.feature}</div>
+  `;
+
+  card.addEventListener('click', () => {
+    if (!card.classList.contains('revealed')) {
+      card.classList.add('revealed');
+      card.querySelector('.card-status span:last-child').textContent = 'FEATURE';
+      revealed++;
+      document.getElementById('counter').textContent = `${revealed} / 6 bugs revelados`;
+      if (revealed === 6) {
+        setTimeout(() => {
+          document.querySelector('.footer-quote').style.opacity = '0.7';
+          document.querySelector('.footer-quote').style.transition = 'opacity 1s';
+        }, 400);
+      }
+    }
+  });
+
+  grid.appendChild(card);
+});
+
+// ── CHAOS BUTTON ─────────────────────────────────────────────────
+let chaosActive = false;
+const chaosBtn = document.getElementById('chaosBtn');
+const chaosMsg = document.getElementById('chaosMsg');
+const messages = [
+  '// segmentation fault (core dumped)',
+  '// NullPointerException at line 42',
+  '// undefined is not a function',
+  '// maximum call stack exceeded',
+  '// FATAL: unexpected token }',
+  '// cannot read property of undefined',
+];
+
+let chaosTimeout;
+
+chaosBtn.addEventListener('click', () => {
+  chaosActive = !chaosActive;
+  document.body.classList.toggle('chaos', chaosActive);
+  chaosMsg.classList.add('visible');
+  chaosMsg.textContent = messages[Math.floor(Math.random() * messages.length)];
+
+  clearTimeout(chaosTimeout);
+  if (chaosActive) {
+    // auto-reveal a random unrevealed card after 1.5s (bug becomes feature)
+    chaosTimeout = setTimeout(() => {
+      const unrevealed = [...document.querySelectorAll('.bug-card:not(.revealed)')];
+      if (unrevealed.length) {
+        unrevealed[Math.floor(Math.random() * unrevealed.length)].click();
+        chaosMsg.textContent = '// bug accepted... transforming into feature ✓';
+      }
+      document.body.classList.remove('chaos');
+      chaosActive = false;
+      setTimeout(() => chaosMsg.classList.remove('visible'), 2500);
+    }, 1500);
+  } else {
+    setTimeout(() => chaosMsg.classList.remove('visible'), 2000);
+  }
+});
+
+// hover: add micro glitch to canvas particles
+document.querySelectorAll('.bug-card').forEach(card => {
+  card.addEventListener('mouseenter', () => {
+    for (let i = 0; i < 8; i++) {
+      const p = particles[Math.floor(Math.random() * particles.length)];
+      p.speedY = -2;
+      p.opacity = 0.8;
+    }
+  });
+});
+</script>
+</body>
+</html>
